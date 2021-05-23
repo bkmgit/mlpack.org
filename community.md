@@ -64,16 +64,17 @@ Two mailing lists are used for mlpack discussion and development:
 Everyone is welcome to contribute to mlpack.  But before becoming a contributor,
 it's often useful to understand mlpack as a user.  So, a good place to start is
 to [download mlpack](index.html) and use the
-[Python bindings](doc/mlpack-3.3.2/python_documentation.html),
-[Julia bindings](doc/mlpack-3.3.2/julia_documentation.html), or the
-[command-line programs](doc/mlpack-3.3.2/cli_documentation.html) to perform machine learning
+[Python bindings](doc/mlpack-3.4.2/python_documentation.html),
+[R bindings](doc/mlpack-3.4.2/r_documentation.html),
+[Julia bindings](doc/mlpack-3.4.2/julia_documentation.html), or the
+[command-line programs](doc/mlpack-3.4.2/cli_documentation.html) to perform machine learning
 tasks.  You can also write C++ programs to perform machine learning tasks with
-mlpack; [here](doc/mlpack-3.3.2/doxygen/sample.html) are some basic examples.
+mlpack; [here](doc/mlpack-3.4.2/doxygen/sample.html) are some basic examples.
 
 Once you have an idea of what's included in mlpack and how a user might use it,
 then a good next step would be to set up a development environment.  Once you
 have that set up, you can [build mlpack from
-source](doc/mlpack-3.3.2/doxygen/build.html) and [explore the
+source](doc/mlpack-3.4.2/doxygen/build.html) and [explore the
 codebase](https://github.com/mlpack/mlpack/) to see how it's organized.  It may
 even be useful to try and make small changes to the code, then rebuild the
 command-line programs and see what your changes did.
@@ -85,6 +86,10 @@ Here are a couple ideas:
    [Here](https://github.com/mlpack/mlpack/issues?q=is%3Aopen+is%3Aissue+label%3A%22t%3A+question%22)
    is a list of Github issues tagged `question`.  Helping others figure out
    their problems is really one of the best ways to learn about the library.
+
+ * Read through the [vision document](papers/vision.pdf) to learn about the
+   development goals of the mlpack community and see the high-level tasks that
+   need to be done to accomplish that vision.
 
  * Find an issue that needs implementation help;
    [here](https://github.com/mlpack/mlpack/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)
@@ -127,7 +132,7 @@ IRC via freenode: [#mlpack](http://webchat.freenode.net/?channels=mlpack); you c
 
 Gitter: [mlpack/mlpack](https://gitter.im/mlpack/mlpack); you will need a Github account
 
-Matrix: [#mlpack:matrix.org](https://matrix.org/); you will need to set up a matrix.org account and use a client such as [Riot](https://riot.im/) or others.
+Matrix: [#mlpack:matrix.org](https://matrix.org/); you will need to set up a matrix.org account and use a client such as [Element](https://element.io) or others.
 
 Slack: [mlpack.slack.org](https://mlpack.slack.org/); in order to create an account, you’ll need to use the auto-inviter to send yourself an invite: [slack-inviter.mlpack.org](http://slack-inviter.mlpack.org:3000/).
 
